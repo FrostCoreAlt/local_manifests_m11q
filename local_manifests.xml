@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Remotes -->
+    <remote name="ifoodplayer" fetch="https://github.com/ifoodplayer" clone-depth="1" />
     <!-- Repos -->
     <!-- Device -->
     <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="ifoodplayer" revision="lineage-20" />
