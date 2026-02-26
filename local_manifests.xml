@@ -10,7 +10,7 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="ifoodplayer" revision="lineage-20" />
+    <project path="device/samsung/m11q" name="android_device_samsung_m11q" remote="ifoodplayer" revision="lineage-21" />
 
     <!-- Kernel -->
     <project path="kernel/samsung/m11q" name="android_kernel_samsung_m11q" remote="ifoodplayer" revision="lineage-20" />
