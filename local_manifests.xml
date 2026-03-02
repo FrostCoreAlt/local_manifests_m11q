@@ -4,7 +4,8 @@
     <!-- Remotes -->
     <remote name="lineageOS" fetch="https://github.com/lineageOS" clone-depth="1" />
     <remote name="ifoodplayer" fetch="https://github.com/ifoodplayer" clone-depth="1" />
-
+    <remote name="FrostCoreAlt" fetch="https://github.com/FrostCoreAlt" clone-depth="1" />
+    
     <!-- Removals -->
     <remove-project name="platform/hardware/samsung/nfc" />
 
@@ -16,7 +17,7 @@
     <project path="kernel/samsung/m11q" name="android_kernel_samsung_m11q" remote="ifoodplayer" revision="lineage-19.1" />
 
     <!-- Vendor -->
-    <project path="vendor/samsung/m11q" name="proprietary_vendor_samsung_m11q" remote="ifoodplayer" revision="12.1-64" />
+    <project path="vendor/samsung/m11q" name="proprietary_vendor_samsung_m11q" remote="FrostCoreAlt" revision="patch-1" />
 
     <!-- Hardware -->
     <project path="hardware/samsung" name="android_hardware_samsung" remote="lineageOS" revision="lineage-19.1" />
